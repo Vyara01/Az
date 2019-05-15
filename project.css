@@ -3,37 +3,59 @@ body{
 	/*background: url(https://i.pinimg.com/originals/18/e2/0a/18e20a2bac87f8442057f3931e3a6c2e.png) 50% 50% ;
 	background-repeat: no-repeat; /*pii chai; pikai, s trima brtq ot kitai*/
 	/*background-position: center; /* Center the image */
-	/*box-shadow: inset 0 0 50px 20px #4d0000;*/
 	background-color: #4d0000; 
 }
 
+img{
+	position: absolute;
+	width: 2000px;
+  	size: auto;
+	top: -550px;
+	height: auto;
+	z-index: -1;
+	box-shadow: inset 0 0 50px 20px #4d0000;
 
-th{
-	list-style-type: none;
+
 }
-tr{
-	size: 1px 1px;
+#plqk{
+	margin:auto;
+	padding: auto;
+	position: absolute;
+	text-align: center;
+	box-shadow: inset 0 0 50px 20px #4d0000;
 }
 .button{
 	background-color: #330000; 
 }
-img{
-	
-	z-index: -1;
-	box-shadow: inset 0 0 50px 90px #4d0000;
-	border-image: none;
+p{
+	padding: 100px;
+	color: white;
+
+	background-color: #4d0000;
 }
-#plqk{
-	display: block;
-	size: auto;
-	position: relative;
-	top: -200px;
-	margin-left: auto;
-  margin-right: auto;
+#bam{
+	margin:auto;
+	padding-top: 200px;
+	opacity: 0.3;
+	font-family: bender;
+	font-size: 120%;
+
 }
 
-p{
-	padding: 20px;
+
+.bam2{
+	margin:auto;
+	padding-top: 200px;
+	font-family: bender;
+	font-size: 120%;
+	opacity: 0.1;
+	background-color: red;
+
+}
+.bam2:hover{
+	transition: 0.5s;
+	background:green;
+	opacity: 1;
 }
 .button{
 	position: relative;
@@ -50,9 +72,16 @@ p{
  	text-decoration: none;
 
 }
+div{	
+	
+
+ 	text-align: center;
+
+}
 nav{
 	width: 300px;
 	margin:auto;
+	padding: auto;
 	text-align: center;
 	font-family: bender;
 	font-size: 120%;
