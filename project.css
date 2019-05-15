@@ -1,14 +1,16 @@
 body{
 
 	/*background: url(https://i.pinimg.com/originals/18/e2/0a/18e20a2bac87f8442057f3931e3a6c2e.png) 50% 50% ;
-	background-repeat: no-repeat; /*pii chai; pikai, s trima brtq ot kitai*/
-	/*background-position: center; /* Center the image */
+	background-repeat: space; /*pii chai; pikai, s trima brtq ot kitai*/
+	/*background-position: fixed; /* Center the image */
 	background-color: #4d0000; 
 }
 
 img{
-	position: absolute;
-	width: 2000px;
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 100%;
   	size: auto;
 	top: -550px;
 	height: auto;
@@ -28,14 +30,23 @@ img{
 	background-color: #330000; 
 }
 p{
-	padding: 100px;
-	color: white;
+	margin:auto;
+	
+}
+.maintext{
+	display: block;
 
+	margin-top: 400px;
+	padding: 70px;
+	opacity: 0.8;
+	font-family: bender;
+	font-size: 120%;
+	color: white;
+	text-align: center;
 	background-color: #4d0000;
 }
 #bam{
 	margin:auto;
-	padding-top: 200px;
 	opacity: 0.3;
 	font-family: bender;
 	font-size: 120%;
@@ -45,7 +56,6 @@ p{
 
 .bam2{
 	margin:auto;
-	padding-top: 200px;
 	font-family: bender;
 	font-size: 120%;
 	opacity: 0.1;
