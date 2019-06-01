@@ -1,103 +1,161 @@
 body{
 
-	/*background: url(https://i.pinimg.com/originals/18/e2/0a/18e20a2bac87f8442057f3931e3a6c2e.png) 50% 50% ;
-	background-repeat: space; /*pii chai; pikai, s trima brtq ot kitai*/
-	/*background-position: fixed; /* Center the image */
+	background: url("bckg2.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	background-color: #4d0000; 
+	box-shadow: inset 0 0 10px 10px #4d0000;
 }
-
-img{
-	position: fixed;
-	top:0;
-	width: 100%;
-	height: 100%;
-  	size: auto;
-	top: -550px;
-	height: auto;
-	z-index: -1;
-	box-shadow: inset 0 0 50px 20px #4d0000;
-
+iframe{
+	margin-top: 40px;
+	margin-bottom: 40px;
 
 }
-#plqk{
-	margin:auto;
-	padding: auto;
-	position: absolute;
+h1{
+	padding-bottom: 15px;
+	font-family: bender;
+	color: white;	
+}
+.icon1{
+	margin-top: 200px;
+}
+.text1{
+	opacity: 1;
+	font-family: bender;
+	font-size: 100%;
+	color: white;
 	text-align: center;
-	box-shadow: inset 0 0 50px 20px #4d0000;
 }
-.button{
-	background-color: #330000; 
+.text2{
+	opacity: 1;
+	font-family: bender;
+	font-size: 100%;
+	color: white;
+	text-align: center;
+}
+.pics{
+	display: inline;
+}
+img{
+	width: 300px;
+	height: 50%;
+	box-sizing: content-box;
+}
+
+.icon2{
+	margin-top: 200px;
+	text-align: center;
+
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td{
+	text-align: center;
 }
 p{
-	margin:auto;
-	
-}
-.maintext{
-	display: block;
+	opacity: 0.1;
 
-	margin-top: 400px;
+
+}
+
+	/*PEACH HELP*/
+
+
+.categories{
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+h3{
+
+	font-size: 200%;
+	font-family: bender;
+	color: white;
+	opacity: 0.9;
+}
+
+.cat{
+
+	border-style: ridge;
+	opacity: 1;
+	font-family: bender;
+	font-size: 120%;
+	color: white;
+	padding-left: 15px;
+	width: 300px;
+}
+
+
+/* ---------------------------------*/
+
+
+.maintext{
+	margin-top: 40px;
 	padding: 70px;
 	opacity: 0.8;
 	font-family: bender;
-	font-size: 120%;
+	font-size: 300%;
 	color: white;
 	text-align: center;
 	background-color: #4d0000;
 }
-#bam{
-	margin:auto;
-	opacity: 0.3;
-	font-family: bender;
-	font-size: 120%;
+
 
 }
-
 
 .bam2{
 	margin:auto;
 	font-family: bender;
 	font-size: 120%;
-	opacity: 0.1;
-	background-color: red;
+	opacity: 0.5;
 
 }
-.bam2:hover{
-	transition: 0.5s;
-	background:green;
+p:hover{
+	transition: 0.2s;
 	opacity: 1;
 }
+
+.bam2:hover{
+	opacity: 1;
+}
+
 .button{
-	position: relative;
+
+	display: inline-block;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 10px;
- 	padding: 3px 3px;
- 	border: 1px solid;
+ 	padding: 6px 6px; /*visochina na buttona*/
+ 	border: 3px solid;
  	border-color: #d6c6ad;
- 	opacity: 0.9;
+ 	opacity: 1;
  	transition: 0.3s;
 
+	width: 300px;
+
+
+	text-align: center;
+	font-family: bender;
+	font-size: 120%;
+	font-weight: bold;
  	text-align: center;
  	text-decoration: none;
 
 }
 div{	
 	
-
- 	text-align: center;
-
 }
-nav{
-	width: 300px;
-	margin:auto;
-	padding: auto;
+
+.menu{
 	text-align: center;
-	font-family: bender;
-	font-size: 120%;
-	font-weight: bold;
-	border: 1px double #e7e7e7;
- 	background-color: #5B4040;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(77,0,0,.5);
 
 }
 
