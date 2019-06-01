@@ -46,24 +46,33 @@ img{
 
 .icon2{
 	margin-top: 200px;
+	margin-bottom: 50px;
 	text-align: center;
 
 }
-table{
+.icon3{
+	margin-top: 200px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.main_table{
+	width: 100%;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-td{
-	text-align: center;
+.banan{
+	width: 220px;
+	height: 50%;
 }
+
 p{
 	opacity: 0.1;
 
 
 }
 
-	/*PEACH HELP*/
+	/*-------------------------------------PEACH HELP-----------------------------------------*/
 
 
 .categories{
@@ -91,7 +100,7 @@ h3{
 }
 
 
-/* ---------------------------------*/
+/* -------------------------------------------------------------------------------------------*/
 
 
 .maintext{
@@ -102,7 +111,7 @@ h3{
 	font-size: 300%;
 	color: white;
 	text-align: center;
-	background-color: #4d0000;
+	background-color: rgba(77,0,0,0);
 }
 
 
@@ -115,10 +124,7 @@ h3{
 	opacity: 0.5;
 
 }
-p:hover{
-	transition: 0.2s;
-	opacity: 1;
-}
+
 
 .bam2:hover{
 	opacity: 1;
@@ -147,15 +153,12 @@ p:hover{
  	text-decoration: none;
 
 }
-div{	
-	
-}
 
 .menu{
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-color: rgba(77,0,0,.5);
+	background-color: rgba(77,0,0,.4);
 
 }
 
