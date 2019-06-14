@@ -35,8 +35,16 @@ h1{
 	color: white;
 	text-align: center;
 }
-.pics{
+.pics{ 
+	padding: 10px;
+	height: 300px;
 	display: inline;
+}
+
+.menu_peach{
+	height: 500px;
+	display: inline-table;
+	position: relative;
 }
 img{
 	width: 300px;
@@ -66,16 +74,13 @@ img{
 	height: 50%;
 }
 
-p{
-	opacity: 0.1;
 
-
-}
 
 	/*-------------------------------------PEACH HELP-----------------------------------------*/
 
 
 .categories{
+	display: inline-table;
 	padding-left: 10px;
 	padding-top: 20px;
 }
@@ -90,7 +95,6 @@ h3{
 
 .cat{
 
-	border-style: ridge;
 	opacity: 1;
 	font-family: bender;
 	font-size: 120%;
